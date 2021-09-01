@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import './App.css';
 import Header  from './header';
+import TopCardList  from './top-card-list';
+
 function App() {
-  return <Header/>;
+  return <Fragment><Header/><TopCardList/> </Fragment>   ;
 }
 
 export default App;
