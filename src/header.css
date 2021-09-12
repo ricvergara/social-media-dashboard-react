@@ -1,0 +1,22 @@
+/*Header*/
+
+.header {
+    background-color: var(--background-header-light);
+    padding-bottom: 100px;
+    border-radius: 0 0 20px 20px;
+    padding-top: 2em;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.7em;
+    color: var(--black);
+}
+
+.header-total {
+    color: var(--dark-grayish);
+    margin: .5em 0;
+    font-weight: bold;
+    border-bottom: 1px solid var(--dark-grayish);
+    padding-bottom: 1.5em;
+}
